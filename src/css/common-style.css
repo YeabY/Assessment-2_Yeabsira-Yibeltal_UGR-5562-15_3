@@ -1,0 +1,188 @@
+body{
+    font-family: sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto; 
+    max-width: 1000px;
+}
+
+header {
+    background: linear-gradient(to right, #222922 20%, #384438 37.5%, #222922 65%);
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+.footer-1 {
+    background-color: #222922;
+    border-bottom: 0.5px solid rgb(82, 82, 82);
+    padding: 15px 0;
+}
+
+.footer-2{
+    background-color: #222;
+
+}
+
+header, footer{
+    color: white;
+}
+
+blockquote {
+    text-indent: 150px;
+    font-style: italic;
+    line-height: 0;
+    margin-bottom: 35px;
+}
+
+.wrapper h1 a{
+    line-height: 0;
+    font-size: 60px;
+    text-decoration: none;
+    color:white;
+}
+
+#colored-header {
+    color:#DB7835;
+}
+
+.header-nav ul{
+    padding-top: 40px;
+    padding-left:0px;
+    display: flex;
+    list-style-type: none;
+}
+
+.active {
+    background-color: #DB7835 !important;
+}
+
+.header-nav ul li a:hover, .header-nav ul li a:active{
+    background-color: #DB7835;
+}
+
+.header-nav ul li a {
+    border-radius: 4px;
+    background-color: #83BB13;
+    margin-right: 13px;
+    padding: 7px 10px;
+    color: white;
+    text-decoration: none;
+    font-size:12px;
+}
+
+/* End of header css */
+
+main .wrapper{
+    display: flex;
+    gap: 40px;
+}
+
+main .wrapper aside{
+    width:300px;
+    box-sizing: border-box;
+}
+
+main h2{
+    color: #83BB13; 
+}
+
+main p{
+    color:#707070;
+}
+
+p{
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+/* End of common main CSS */
+
+aside ul{
+    list-style-type: none;
+    padding-left: 0;
+    color:#707070;
+}
+
+aside ul li a, aside ul li{
+    line-height: 2.5;
+    color:#707070;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.aside-nav a:hover{
+    color:#83BB13;
+    text-decoration: underline;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.light-colored {
+    color: darkgray;
+}
+
+/* End of Aside CSS */
+
+footer .wrapper{
+    display: flex;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.footer-1 .wrapper {
+    gap: 30px;
+}
+
+.footer-about img{
+    float:left;
+}
+
+.footer-2 .wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+}
+
+.footer-2 ul{
+    display: flex;   
+    list-style-type: none;
+    gap: 20px;
+}
+
+.footer-2 ul li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-2 a:hover{
+    text-decoration: underline;
+    color:#83BB13;
+}
+
+.active-footer, .green, .footer-1 a{
+    color: #83BB13 !important;
+}
+
+.main-images {
+    height:100px;
+    width: 100%;
+    padding:4px;
+    border: 1px solid lightgrey;
+}
+
+.footer-images, .footer-2-image{
+    width:75px;
+}
+
+.footer-2-image {
+   padding-right: 1em;
+}

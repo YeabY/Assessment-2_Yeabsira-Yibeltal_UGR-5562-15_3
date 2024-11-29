@@ -1,0 +1,57 @@
+main .wrapper .articles{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: calc(100% - 340px);
+}
+
+main .wrapper{
+    padding: 20px 0;
+}
+
+form {
+    max-width: 400px;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color:#707070;
+}
+
+input, textarea, button {
+    width: 130%;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    color: #707070;
+    padding: 2px  !important;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 22%;
+    cursor: pointer;
+}
+
+#inner-button{
+    padding: 5px 0;
+    background: linear-gradient(to bottom, white, #ebebeb);
+    background-color: #ccc;
+}
+
+#inner-button:hover {
+    background: linear-gradient(to top, white, #ebebeb);
+}

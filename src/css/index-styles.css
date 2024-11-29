@@ -1,0 +1,23 @@
+main .wrapper {
+    padding: 20px 0;
+}
+
+main .wrapper .articles{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    width: calc(100% - 340px);
+}
+
+main .wrapper article {
+    width: calc(50% - 30px);
+    box-sizing: border-box;
+}
+
+main a{
+    color: #83BB13;
+}
+
+#read-more-colored {
+    color:orange;
+}

@@ -1,0 +1,7 @@
+main .wrapper .articles{
+    width: calc(100% - 340px);
+}
+
+main .wrapper{
+    padding: 20px 0 35px 0;
+}
